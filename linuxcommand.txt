@@ -43,4 +43,90 @@
    27  git commit -m"my first commit"
    28  git status
    29  history
+-----------------------------------------------2nd feb 2019 ansible---------------------------
+root@ip-172-31-46-61 gitdemo]# history
+    1  history
+    2  cd /opt
+    3  ls -ltr
+    4  mkdir -p ansible-demo
+    5  cd ansible-demo/
+    6  ls -ltr
+    7  clear
+    8  hostname
+    9  git status
+   10  ll
+   11  cd ..
+   12  ls -ltr
+   13  pwd
+   14  cd ansible-demo
+   15  cd ..
+   16  mkdir -p gitdemo
+   17  ls -ltr
+   18  cd aws
+   19  ls
+   20  pwd
+   21  ls -ltr
+   22  cd apitools
+   23  ls
+   24  cd ..
+   25  ls -ltr
+   26  cd rh/
+   27  l
+   28  ll
+   29  ls -ltr
+   30  cd ..
+   31  ls -ltr
+   32  yum intall tree -y
+   33  yum install tree -y
+   34  tree
+   35  cd gitdemo
+   36  tree
+   37  git status
+   38  yum install git -y
+   39  cd ..
+   40  rm -rf gitdemo
+   41  git clone https://github.com/vipin54321/gitdemo.git
+   42  cd gitdemo
+   43  ll
+   44  tree
+   45  cd ..
+   46  tree
+   47  ls -ltr
+   48  cd gitdemo
+   49  ll
+   50  cd ..
+   51  ls -ltr
+   52  mv ansible-demo gitdemo/
+   53  ll
+   54  cd gitdemo/
+   55  ll
+   56  history
+[root@ip-172-31-46-61 gitdemo]#
+
+exercise----------
+
+ 51  ls -ltr
+   52  mv ansible-demo gitdemo/
+   53  ll
+   54  cd gitdemo/
+   55  ll
+   56  history
+   57*
+   58  cd /etc/yum.repos.d
+   59  vi ansible.repo
+   60  ll
+   61*
+   62  history
+   63  yum update -y
+   64  cd ..
+   65  ls -ltr
+   66  cd yum.repos.d/
+   67  ls -ltr
+   68  rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+   69  yum -y install ansible
+   70  ansible --version
+   71  cd /ect/ansible/hosts
+   72  cd /etc/ansible/
+   73  ll
+   74  pwd
 
