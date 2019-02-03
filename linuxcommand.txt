@@ -129,4 +129,41 @@ exercise----------
    72  cd /etc/ansible/
    73  ll
    74  pwd
+----------------------------------------------------------------------------3rd feb-----------------------------------------------------------------------------------------
+86  mkdir -p Ansibledemo
+   87  ls -ltr
+   88  cd Ansibledemo
+   89  vi httd.yml
+   90  ls -ltr
+   91  vi httd.yml
+   92  ls -ltr
+   93  vi httd.yml
+   94  ansible-playbook httd.yml -vvv
+   95  vi httd.yml
+   96  ansible-playbook httd.yml -vvv
+   97  vi httd.yml
+   98  ansible-playbook httd.yml -vvv
+   99  vi httd.yml
+  100  vi htts.yml
+  101  !
+  102  ls -ltr
+  103  ansible-playbook htts.yml -vvv
+  104  vi htts.yml
+  105  ansible-playbook htts.yml -vvv
+  106  vi htts.yml
+  107  ansible-playbook htts.yml -vvv
+  108  vi htts.yml
+  109  ansible-playbook htts.yml -vvv
+  110  ansible-playbook httd.yml -vvv
+  111  ls -ltr
+  112  vi httd.yml
+  113  ansible-playbook httd.yml -vvv
+  114  vi ansible_Ver
+  115  ls -ltr
+  116  vi ansible_ver.yml
+  117  ls -ltr
+  118  vi ansible_ver.yml
+  119  ansible-playbook ansible_ver.yml -vvv
+  120  vi ansible_ver.yml
+  121  history
 
